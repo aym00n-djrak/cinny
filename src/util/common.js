@@ -122,7 +122,8 @@ export function cssVar(name) {
 export function setFavicon(url) {
   const favicon = document.querySelector('#favicon');
   if (!favicon) return;
-  favicon.setAttribute('href', url);
+ // favicon.setAttribute('href', url);
+ favicon.setAttribute('href', 'https://cdn.discordapp.com/attachments/1019884669837254666/1079862868268294184/Am00n_Logo_for_a_centralized_messagery_compagny_mail_logoletter_ebf625db-8274-4945-b6c5-d2d6e442e9bb.png');
 }
 
 export function copyToClipboard(text) {
