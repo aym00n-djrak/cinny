@@ -23,7 +23,6 @@ import ContextMenu, { MenuItem, MenuHeader } from '../../atoms/context-menu/Cont
 import ChevronBottomIC from '../../../../public/res/ic/outlined/chevron-bottom.svg';
 import EyeIC from '../../../../public/res/ic/outlined/eye.svg';
 import EyeBlindIC from '../../../../public/res/ic/outlined/eye-blind.svg';
-import CinnySvg from '../../../../public/res/svg/cinny.svg';
 import SSOButtons from '../../molecules/sso-buttons/SSOButtons';
 
 const LOCALPART_SIGNUP_REGEX = /^[a-z0-9_\-.=/]+$/;
@@ -562,9 +561,9 @@ function Auth() {
           {!loginToken && (
             <div className="auth-card">
               <Header>
-                <Avatar size="extra-small" imageSrc={CinnySvg} />
+                <Avatar size="extra-small" imageSrc="https://cdn.discordapp.com/attachments/1019884669837254666/1079862868268294184/Am00n_Logo_for_a_centralized_messagery_compagny_mail_logoletter_ebf625db-8274-4945-b6c5-d2d6e442e9bb.png" />
                 <TitleWrapper>
-                  <Text variant="h2" weight="medium">Cinny</Text>
+                  <Text variant="h2" weight="medium">Kwado9</Text>
                 </TitleWrapper>
               </Header>
               <div className="auth-card__content">
@@ -576,13 +575,7 @@ function Auth() {
 
         <div className="auth-footer">
           <Text variant="b2">
-            <a href="https://cinny.in" target="_blank" rel="noreferrer">About</a>
-          </Text>
-          <Text variant="b2">
-            <a href="https://github.com/ajbura/cinny/releases" target="_blank" rel="noreferrer">{`v${cons.version}`}</a>
-          </Text>
-          <Text variant="b2">
-            <a href="https://twitter.com/cinnyapp" target="_blank" rel="noreferrer">Twitter</a>
+            <a href="https://kwado9.fr" target="_blank" rel="noreferrer">About</a>
           </Text>
           <Text variant="b2">
             <a href="https://matrix.org" target="_blank" rel="noreferrer">Powered by Matrix</a>
